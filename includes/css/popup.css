@@ -1,0 +1,50 @@
+.baum-popup {
+    width: 100vw;
+    height: 100vh;
+    background: rgba(0, 0, 0, 0.6);
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 10;
+}
+
+.baum-popup .container {
+    background: #fff;
+    width: 45%;
+    margin: 10% auto;
+    padding: 2rem;
+    -webkit-box-shadow: -1px 2px 14px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: -1px 2px 14px 0px rgba(0,0,0,0.75);
+    box-shadow: -1px 2px 14px 0px rgba(0,0,0,0.75);
+    border-radius: 10px;
+}
+
+.baum-popup h2 {
+    margin: 0;
+    margin-bottom: 1rem;
+}
+
+.baum-popup p, .baum-popup h2 {
+    color: black;
+}
+
+.baum-popup button {
+    color: #fff;
+    background: #0d8bb3;
+    border: none;
+    padding: 1rem;
+    width: 10rem;
+    display: inline-block;
+    font-size: 14px;
+}
+
+@media only screen and (max-width: 600px) {
+    .baum-popup h2 {
+        font-size: 18px;
+    }
+
+    .baum-popup .container {
+        margin: 50% auto;
+        width: 60%;
+    }
+}
